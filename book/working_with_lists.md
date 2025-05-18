@@ -39,7 +39,7 @@ We can also use [`update`](/commands/docs/update.md) to replace the 2nd element 
 # => [1, 10, 3, 4]
 ```
 
-## Removing or Adding Items from List
+## Removing or adding items from lists
 
 In addition to [`insert`](/commands/docs/insert.md) and [`update`](/commands/docs/update.md), we also have [`prepend`](/commands/docs/prepend.md) and [`append`](/commands/docs/append.md). These let you insert to the beginning of a list or at the end of the list, respectively.
 
@@ -55,7 +55,7 @@ $colors
 # => [black red yellow green purple blue]
 ```
 
-In case you want to remove items from list, there are many ways. [`skip`](/commands/docs/skip.md) allows you skip first rows from input, while [`drop`](/commands/docs/drop.md) allows you to skip specific numbered rows from end of list.
+In case you want to remove items from a list, there are many ways. [`skip`](/commands/docs/skip.md) allows you skip the first rows from input, while [`drop`](/commands/docs/drop.md) allows you to skip specific numbered rows from the end of a list.
 
 ```nu
 let colors = [red yellow green purple]
@@ -65,7 +65,7 @@ $colors
 # => [yellow]
 ```
 
-We also have [`last`](/commands/docs/last.md) and [`first`](/commands/docs/first.md) which allow you to [`take`](/commands/docs/take.md) from the end or beginning of the list, respectively.
+We also have [`last`](/commands/docs/last.md) and [`first`](/commands/docs/first.md), which allow you to [`take`](/commands/docs/take.md) from the end or beginning of the list, respectively.
 
 ```nu
 let colors = [red yellow green purple black magenta]

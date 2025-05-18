@@ -4,7 +4,7 @@
 | --------------------- | ---------------------------------------------------------------------------------------------- |
 | **_Description:_**    | Describes a range of values from a starting value to an ending value, with an optional stride. |
 | **_Annotation:_**     | `range`                                                                                        |
-| **_Literal Syntax:_** | `<start_value>..<end_value> or `<start_value>..<second_value>..<end_value>. E.g., `1..10`.     |
+| **_Literal Syntax:_** | `<start_value>..<end_value>` or `<start_value>..<second_value>..<end_value>`. E.g., `1..10`.   |
 | **_Casts:_**          | [`seq`](/commands/docs/seq.md)                                                                 |
 | **_See also:_**       | [Types of Data - Ranges](/book/types_of_data.md#ranges)                                        |
 

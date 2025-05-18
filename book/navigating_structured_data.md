@@ -79,7 +79,7 @@ The next few examples will use the following table:
 
 ```nu
 let data = [
-    [date                        temps                                   condition      ];
+    [date                        temps                                   condition    ];
     [2022-02-01T14:30:00+05:00,  [38.24, 38.50, 37.99, 37.98, 39.10],   'sunny'       ],
     [2022-02-02T14:30:00+05:00,  [35.24, 35.94, 34.91, 35.24, 36.65],   'sunny'       ],
     [2022-02-03T14:30:00+05:00,  [35.17, 36.67, 34.42, 35.76, 36.52],   'cloudy'      ],
@@ -316,7 +316,7 @@ By default missing cells will be replaced by `null` when accessed via the option
 
 ### Assigning a `default` for missing or `null` data
 
-The [`default` command](/commands/docs/default.html) can be used to apply a default value to missing or null column result.
+The [`default` command](/commands/docs/default.html) can be used to apply a default value to missing or null column results.
 
 ```nu
 let missing_value = [{a:1 b:2} {b:1}]
@@ -344,4 +344,4 @@ $with_default_value.1.a
 ## Other commands for accessing structured data
 
 - [`reject`](/commands/docs/reject.md) is the opposite of `select`, removing the specified rows and columns
-- [`range`](/commands/docs/range.md) specifies the rows of a list or table to select using a [`range`](./types_of_data.md#ranges) type
+- [`slice`](/commands/docs/slice.md) specifies the rows of a list or table to select using a [`range`](./types_of_data.md#ranges) type

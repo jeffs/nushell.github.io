@@ -52,7 +52,7 @@ Here, semicolons are used in conjunction with pipelines. When a semicolon is use
 
 Much of Nu's composability comes from the special `$in` variable, which holds the current pipeline input.
 
-`$in` is particular useful when used in:
+`$in` is particularly useful when used in:
 
 - Command or external parameters
 - Filters

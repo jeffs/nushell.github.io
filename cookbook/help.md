@@ -16,7 +16,7 @@ help commands
 
 ### Specific information on a command
 
-To find more specific information on a command, use `help <COMMAND>`. This works for regular commands (i.e. `http`) and subcommands (i.e. `http get`):
+To find more specific information on a command, use `help <COMMAND>`. This works for regular commands (like `http`) and subcommands (like `http get`):
 
 ```nu
 help http get
